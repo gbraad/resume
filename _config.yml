@@ -1,0 +1,7 @@
+future:      true
+lsi:         true
+highlighter: pygments
+permalink:   /:title.html
+markdown:    pandoc
+pandoc:
+   extensions: [smart]
