@@ -1,9 +1,14 @@
-Gerard Braad
-============
+# _**Gerard Braad**_
 
-  * [Resume](resume.md)
-  * [Recommendations](recommendations.md)
-  * [Portfolio](//gbraad.nl/#portfolio)
+
+## Available versions
+
+  * Resume  
+    [HTML](resume.html), [Printable PDF](resume.pdf)
+  * Recommendations  
+    [HTML](recommendations.html), [Printable PDF](recommendations.pdf)
+  * Portfolio  
+    My portfolio can be found on my [homepage](http://gbraad.nl/#portfolio)
 
 
 ## Social media
