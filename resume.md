@@ -68,7 +68,7 @@ Phone
 
     Developed the backend and associated front-end code of both desktop and mobile platforms for Fortune 500 companies. A combination of technologies were employed to allow easy integration, such as RESTful API, sending data back-and-forth as JSON. Front-end code I wrote used Angular or React. Where possible it employed HTML5 technology to improve the user-experience. Other activities I involved in was the deployment and maintenance practices of the aformentioned applications.
     
-    Since most of the code involved with Personal Identifying Information I focussed for a part of my work on security problems. Because of my work, these applications passed scans of internal security teams and SensePost. For this OWASP security guidelines were used. To aid in finding potential issues a combination of techniques was employed, such as using static code analysis using Fortify and actively scanning applications in use using Zed Attack Proxy. To prevent future recurrences of fixed issues and prevent occurences of similar issues automated regression testing
+    Since most of the code involved with Personal Identifying Information I focussed for a part of my work on security problems. Because of my work, these applications passed scans of internal security teams and SensePost. For this OWASP security guidelines were used. To aid in finding potential issues a combination of techniques was employed, such as using static code analysis using Fortify and actively scanning applications in use using Zed Attack Proxy. To prevent similar issues I setup automated regression testing for these security problems.
     
     As part of business development I set up an Embedded and Hardware Lab. One of the projects I made used FirefoxOS to show-off the potential to use this platform for IoT. For hardware access the front-end code would communicate to a Node process running on the device.
 
@@ -80,12 +80,12 @@ Phone
 
 
 ## Acting CTO, Technical Lead (Startup)
-  * [非常好看][employer fchk], October 2011 – April 2013
+  * [非常好看(FeichangHaokan)][employer fchk], October 2011 – April 2013
 
-    As part of a collaboration between [Nomovok][employer nomovok] and the project FeichangHaokan, I was assigned as Project Manager andacting CTO.
+    As part of a collaboration between [Nomovok][employer nomovok] and FeichangHaokan, I was assigned as Project Manager and acting CTO.
     A startup was formed to aid the development of a new online contest platform focusing on passionate people and their interests. I was responsible for designing the infrastructure to deliver a scalable platform which can handle thousands of concurrent requests. The platform provided a RESTful interface which delivers JSON responses which are consumed by a web front-end and mobile clients running Android and iOS.
 
-    Maintaining the development of remote teams using an agile and distributed working methodology. Selection and training a new team of developers for the Chinese office.
+    I was responsbile for managing remote teams using an agile and distributed working methodology and recruiting the developers for the Chinese office.
 
     For [Nomovok][employer nomovok] I wrote integration code and demonstration applications for use on Nomovok's own SteelRat platform for phone and desktop use.
 
@@ -173,20 +173,6 @@ Phone
     Internship for MBO (vocational education). Activities included system and network administration and field services. Fields of expertise included: Windows NT, Novell Netware, VMware, Cisco and Unix.
 
 
-## Shop Assistant
-  * MicMac PC (Netherlands), May 1999 – August 1999
-
-    Sales and technical staff for a local computer store. Additional responsibilities included problem solving of software and hardware issues.
-
-
-## Seller II
-  * [Albert Heijn][employer ah] (Netherlands), January 1996 – May 1999
-
-     All activities that are part of the fruits and vegetable department; planning and budget estimation and ordering of goods, sales analysis, time scheduling,  participating in management meetings and loading/unloading of goods.
-
-     Received an honor for best department of Albert Heijn for several years
-
-
 ## Open Source activities
   * Project Lead, [Fedora Project - MIPS][project fedora-mips]  
     Co-ordinating and managing the port to the MIPS as a secondary architecture for the Fedora Linux distribution. Activities include the global planning, maintaining contact with third-parties and all other activities as described on the secondary architecture guidelines. This project had been handed over to CS2C and effort went into enabling other projects to port to the MIPS platform. Winner of the Godson Software Competition
@@ -229,13 +215,6 @@ Phone
 
     Subjects inlcuded
       : high-voltage electricity, low-voltage electronics, PID controllers, PLC and SCADA, ...
-
-
-## MAVO
-  * Erica College (Netherlands), September 1993 – June 1997
-
-    Subjects
-      : Dutch, English, German, economics, mathematics, physics.
 
 
 # Honors and Recognition
@@ -283,4 +262,4 @@ Phone
 
 [education hu]: http://hu.nl/ "Hogeschool Utrecht"
 [education tce]: http://tce.nl/ "Technisch College Ede"
-[education ac]: http://www.aventus.nl/ "ROC Eventus, Apeldoorns College"
+
