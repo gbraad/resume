@@ -21,9 +21,8 @@ Nationality
 Email
   : [me@gbraad.nl][personal email]  
 Links
-  : [Website][personal website]  
-    [LinkedIn][linkedin english]  
-    [LinkedIn 中文][linkedin chinese]  
+  : [Website][personal website] http://gbraad.nl/  
+    [LinkedIn][linkedin profile] http://linkedin.com/in/gbraad  
 Phone
   : +86 186 0132 7445
 
@@ -220,8 +219,7 @@ Phone
 [personal photo]: //cdn.gbraad.nl/images/gbraad-fc.png "Profile photo"
 [personal email]: mailto:me@gbraad.nl "Email address"
 [personal website]: http://gbraad.nl "Personal website"
-[linkedin english]: http://linkedin.com/in/gbraad/ "LinkedIn English"
-[linkedin chinese]: http://cn.linkedin.com/in/gbraad/zh-cn "LinkedIn Chinese"
+[linkedin profile]: http://linkedin.com/in/gbraad/ "LinkedIn"
 
 [employer tw]: http://www.thoughtworks.com/ "ThoughtWorks"
 [employer fchk]: http://www.feichanghaokan.com/ "非常好看(feichanghaokan)"
