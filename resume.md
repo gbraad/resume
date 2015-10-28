@@ -28,7 +28,7 @@ Phone
 
 ## Background
 
-  Gerard is a multi-disciplinary developer with a broad range of technical talents. Experienced in developing software for different form-factors, and in different programming and scripting languages. More than 10 years experience in developing applications targeting the web, mobile and desktop. Moreover, he shows excellent technical skills in a wide-range of principles from software delivery, continuous integration and deployment, to testing and performance tuning.
+  Gerard is a passionate developer with a broad range of technical talents. Experienced in developing software for different form-factors, and in different programming and scripting languages. More than 10 years experience in developing applications targeting the web, mobile and desktop. Moreover, he shows excellent technical skills in a wide-range of principles from software delivery, continuous integration and deployment, to testing and performance tuning.
 
   An active consultant for Linux and Open Source in China and as part of this I hold lectures on software development and Open Source.
 
