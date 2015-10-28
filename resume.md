@@ -58,21 +58,19 @@ Phone
 ## Senior Software Engineer
   * InfThink (Beijing), September 2015 - present
 
-    Product development as hired coonsultant dealing with IoT/WoT and HTML5-enabled operating systems.
-    
-    Currently I deal with developing a WoT platform based on Android/FirefoxOS utilizing ideas and techniques used in Platform-as-a-Service. As part of this I wrote a system process which listens to incoming requests to spawn on-device processes for interaction with the front-end code they serve. The backend process can interact with the hardware and other on-device services.
+    Product development as hired coonsultant dealing with IoT/WoT and HTML5-enabled operating systems. Currently I deal with developing a WoT platform based on Android/FirefoxOS utilizing ideas and techniques used in Platform-as-a-Service. As part of this I wrote a system process which listens to incoming requests to spawn on-device processes for interaction with the front-end code they serve. The backend process can interact with the hardware and other on-device services.
     
 
 ## Senior Full-stack Engineer
   * [ThoughtWorks][employer tw] (Beijing), November 2013 - September 2015
 
-    Developed the backend and associated front-end code of both desktop and mobile platforms for Fortune 500 companies. A combination of technologies were employed to allow easy integration, such as RESTful API, sending data back-and-forth as JSON. Front-end code I wrote used Angular or React. Where possible it employed HTML5 technology to improve the user-experience. Other activities I involved in was the deployment and maintenance practices of the aformentioned applications.
+    Developed the backend and associated front-end code of both desktop and mobile platforms for Fortune 500 companies. A combination of technologies were employed to allow easy integration, such as HTTP resource API, sending data back-and-forth as JSON. Front-end code I wrote used vanilla JavaScript, Angular or React. Where possible it employed HTML5 technology to improve the user-experience. Other activities I involved in was the deployment and maintenance practices of the aformentioned applications.
     
     Since most of the code involved with Personal Identifying Information I focussed for a part of my work on security problems. Because of my work, these applications passed scans of internal security teams and SensePost. For this OWASP security guidelines were used. To aid in finding potential issues a combination of techniques was employed, such as using static code analysis using Fortify and actively scanning applications in use using Zed Attack Proxy. To prevent similar issues I setup automated regression testing for these security problems.
     
     As part of business development I set up an Embedded and Hardware Lab. One of the projects I made used FirefoxOS to show-off the potential to use this platform for IoT. For hardware access the front-end code would communicate to a Node process running on the device.
 
-    Technology used: .NET, Windows, HTML5 & Friends, JavaScript (Angular, ReactJS, JQuery, Grunt, gulp, Karma, CucumberJS), SAML, WS-Fderation, Go Continuous Delivery, Linux (Fedora, debian), Virtualization (KVM), ruby (cucumber) and python (locust)
+    Technology used: .NET, HTML5 & Friends, Angular, ReactJS, JQuery, Grunt, gulp, Karma, CucumberJS, SAML, WS-Fderation, Go Continuous Delivery, Linux, KVM, ruby, python
 
 
 ### Assignments
@@ -83,11 +81,9 @@ Phone
   * [非常好看(FeichangHaokan)][employer fchk], October 2011 – April 2013
 
     As part of a collaboration between [Nomovok][employer nomovok] and FeichangHaokan, I was assigned as Project Manager and acting CTO.
-    A startup was formed to aid the development of a new online contest platform focusing on passionate people and their interests. I was responsible for designing the infrastructure to deliver a scalable platform which can handle thousands of concurrent requests. The platform provided a RESTful interface which delivers JSON responses which are consumed by a web front-end and mobile clients running Android and iOS.
+    A startup was formed for the development of an online contest platform focusing on people and their passions and interests. I was responsible for designing the infrastructure to deliver a scalable platform which can handle thousands of concurrent requests. The platform provided a RESTful interface which delivers JSON responses which are consumed by a web front-end and mobile clients running Android and iOS.
 
-    I was responsbile for managing remote teams using an agile and distributed working methodology and recruiting the developers for the Chinese office.
-
-    For [Nomovok][employer nomovok] I wrote integration code and demonstration applications for use on Nomovok's own SteelRat platform for phone and desktop use.
+    I was responsbile for managing remote teams using an agile and distributed working methodology and recruiting the developers for the Chinese office. For [Nomovok][employer nomovok] I wrote integration code and demonstration applications for use on Nomovok's own SteelRat platform for phone and desktop use.
 
     Tools used: Linux, PHP, CodeIgniter, MySQL, HTML5 & Friends, JavaScript, JQuery, Android, iOS, Qt  
 
@@ -125,12 +121,6 @@ Phone
   * UEFA Euro 2008, [Summit][employer summit] (Utrecht) – Registration management system using .NET technologies (DotNetNuke, WCF and NHibernate) and Javascript.
   * *Resilience* (de Bilt) – Profile registration system. For this project I have been responsible as an AJAX front-end developer. Technologies used are .NET, HTML/CSS and Javascript.
   * OIT Inbox, [Belastingdienst][employer belasting] (Apeldoorn) – At the Dutch Taxation Office I have worked as a J2EE software engineer. This application controls the flow of information and activates portal applications which the employer needs to correct or act upon. Technologies used are IBM Websphere, MQ Workflow and Java/J2EE.
-
-
-## Visuals and Technical Specialist
-  * [Dance Concepts][employer dc] (Netherlands), August 2008 – April 2009
-
-    Responsible for visuals during live performances and dance events.
 
 
 ## Software Developer and Visuals Artist
@@ -179,10 +169,6 @@ Phone
   * Fedora Ambassador Steering Committee Member APAC, [Fedora FAmSCo][project fedora-famsco]  
     Coordinating activities within the Fedora Community and Fedora Regional Mentor for the APAC region and the Chinese Fedora Community (Fedora 中文用户组).  
     I have been elected to be a member of the Fedora Ambassadors Steering Committee for 2 terms, and have created opportunities to enable growth and enable local/regional leaders of the Fedora project and community in the APAC region.
-  * Hardware engineer, [气 (qi) Hardware][project milkymist]  
-    Development and Quality Assurance of a GPL-licensed SoC using a Xilinx Spartan6 FPGA (Milkymist). RPM Packagement of custom Qemu-LM32 and assisting with inclusion of the packages to be included in the Fedora RPM repository.
-  * Mozilla Representative, [Mozilla Reps][project mozreps]  
-    Promoting the Mozilla Project and mission. Inspire, recruit and support new contributors. Explaining about the benefits and misconceptions about HTML5 and Friends.
   * Also see [Github][project github]
 
 
@@ -262,4 +248,3 @@ Phone
 
 [education hu]: http://hu.nl/ "Hogeschool Utrecht"
 [education tce]: http://tce.nl/ "Technisch College Ede"
-
