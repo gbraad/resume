@@ -54,6 +54,20 @@ Phone
 
 # Employment History
 
+
+## Technical Director
+  * [UnitedStack][employer ustack] (Beijing), November 2015 - present
+
+    UnitedStack Inc. provides an open and commoditized cloud service platform, UOS (United OpenStack) for enterprises and service providers. Gerard's mission is to bridge the gap from open source OpenStack project to a full-fledged and user-friendly cloud product.
+
+### Responsibilities
+  * Responsible for the daily management of upstream development team
+  * Participating in development of open-source communities such as OpenStack
+  * Providing open-source project, such as OpenStack, related training to customers and internally
+  * Supporting the market and enhance market influence
+  * Assisting sales and solutions teams for customer service and solution support
+
+
 ## Senior Software Engineer
   * InfThink (Beijing), September 2015 - present
 
@@ -221,6 +235,7 @@ Phone
 [personal website]: http://gbraad.nl "Personal website"
 [linkedin profile]: http://linkedin.com/in/gbraad/ "LinkedIn"
 
+[employer ustack]: http://www.unitedstack.com "UnitedStack有云 OpenStack [cloud] services"
 [employer tw]: http://www.thoughtworks.com/ "ThoughtWorks"
 [employer fchk]: http://www.feichanghaokan.com/ "非常好看(feichanghaokan)"
 [employer nomovok]: http://www.nomovok.com/ "Nomovok"
