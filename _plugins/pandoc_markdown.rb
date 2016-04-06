@@ -38,7 +38,7 @@ module Jekyll
 
       def convert(content)
         setup
-        @parser.convert(content)
+        @parser.convert(content).force_encoding(Encoding::UTF_8)
       end
     end
   end
