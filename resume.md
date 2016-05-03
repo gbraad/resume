@@ -51,6 +51,8 @@ Phone
   : 10+ years
   * Management
   : 5+ years
+  * Remote working
+  : 2+ years
 
 # Employment History
 
