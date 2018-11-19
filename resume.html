@@ -1,0 +1,700 @@
+<!DOCTYPE html "gbraad">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gerard Braad</title>
+        <meta name="description" content="Gerard Braad - Resume">
+        <meta name="HandheldFriendly" content="True">
+        <meta http-equiv="cleartype" content="on">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  color: #333;
+}
+
+body {
+  font: 14px serif;
+  line-height: 1.4;
+  margin-top: 30px;
+}
+
+#main-wrapper {
+  margin: 0 auto;
+  overflow: visible;
+  width: 80%;
+}
+
+img {
+  border: 0;
+}
+
+a:link {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover, a:visited {
+  color: #4183c4;
+  text-decoration: underline;
+}
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a.absent {
+  color: #c00;
+}
+
+body>*:first-child {
+  margin-top: 0!important;
+}
+
+body>*:last-child {
+  margin-bottom: 0!important;
+}
+
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #55acee;
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+  /* resume specific */
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+  /* background: url(//cdn.gbraad.nl/images/pin-20.png) no-repeat left center; */
+  text-decoration: none;
+}
+
+h1 tt,
+h1 code,
+h2 tt,
+h2 code,
+h3 tt,
+h3 code,
+h4 tt,
+h4 code,
+h5 tt,
+h5 code,
+h6 tt,
+h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 42px;
+  margin-bottom: 18px;
+  /* resume specific */
+  /*page-break-before: always;*/
+}
+
+h2 {
+  font-size: 17px;
+  /* resume specific
+  border-bottom: 1px solid #ccc;
+  */
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  color: #777;
+  font-size: 13px;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+li,
+table,
+pre {
+  margin: 12px 0;
+}
+
+hr {
+  /* background: transparent url(//cdn.gbraad.nl/images/dirty-shade.png) repeat-x 0 0; */
+  border: 0 none;
+  color: #ccc;
+  height: 4px;
+  padding: 0;
+}
+
+body>h1:first-child,
+body>h2:first-child,
+body>h3:first-child,
+body>h4:first-child,
+body>h5:first-child,
+body>h6:first-child {
+}
+
+h1+h2{
+  margin-top: 25px;
+}
+
+h2+h3{
+  margin-top: 8px;
+}
+
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p,
+h2+p,
+h3+p,
+h4+p,
+h5+p,
+h6+p {
+  margin-top: 0;
+}
+
+li p.first {
+  display: inline-block;
+}
+
+ul,
+ol {
+  padding-left: 30px;
+}
+
+ul li>:first-child,
+ol li>:first-child {
+  margin-top: 0;
+}
+
+ul li>:last-child,
+ol li>:last-child {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 12px 0 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0;
+}
+
+dl dd {
+  margin: 0 0 12px;
+  padding: 0 12px;
+}
+
+dl dd>:first-child {
+  margin-top: 0;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0;
+}
+
+blockquote {
+  border-left: 2px solid #eee;
+  padding: 0 15px;
+  color: #111;
+}
+
+blockquote>:first-child {
+  margin-top: 0;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+table tr th {
+  font-weight: bold;
+}
+
+table tr th,
+table tr td {
+  border: 1px solid #ccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+table tr th>:first-child,
+table tr td>:first-child {
+  margin-top: 0;
+}
+
+table tr th>:last-child,
+table tr td>:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+code,
+tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>tt,
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre pre,
+pre code,
+pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+pre pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* resume specific */
+li, ul {
+  list-style: none;
+}
+
+h2+h1 {
+  /* first page */
+  page-break-before: avoid;
+}
+
+#gerard-braad h1 {
+  /* h1 */
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #55acee;
+}
+
+section#gerard-braad {
+  page-break-before: avoid;
+}
+
+section#employment-history {
+  page-break-before: always
+}
+
+section#education {
+  page-break-before: always;
+}
+
+section#honors-and-recognition {
+  page-break-before: avoid;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+}
+
+figure {
+  /* .photo */
+  width: 180px;
+  float: right;
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #eee;
+}
+
+figcaption {
+  display: none;
+}
+
+a code {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+  font-family: serif;
+}
+        </style>
+    </head>
+    <body>
+        <div id="main-wrapper" class="page">
+
+<section id="gerard-braad" class="level1">
+<h1><em><strong>Gerard Braad</strong></em></h1>
+<section id="personal-information" class="level2">
+<h2>Personal information</h2>
+<figure>
+<img src="./gbraad-fc.png" title="Profile photo" alt="Photo" /><figcaption>Photo</figcaption>
+</figure>
+<ul>
+<li><dl>
+<dt>Chinese name</dt>
+<dd>吉拉德
+</dd>
+</dl></li>
+<li><dl>
+<dt>Date of Birth</dt>
+<dd>22 February, 1981
+</dd>
+</dl></li>
+<li><dl>
+<dt>Nationality</dt>
+<dd>Dutch
+</dd>
+</dl></li>
+<li><dl>
+<dt>Email</dt>
+<dd><a href="mailto:me@gbraad.nl">me@gbraad.nl</a>
+</dd>
+</dl></li>
+<li><dl>
+<dt>Links</dt>
+<dd>Website <a href="http://gbraad.nl" title="Personal website">http://gbraad.nl/</a><br />
+LinkedIn <a href="http://linkedin.com/in/gbraad/" title="LinkedIn">http://linkedin.com/in/gbraad</a>
+</dd>
+</dl></li>
+<li><dl>
+<dt>Phone</dt>
+<dd>+86 186 0132 7445
+</dd>
+</dl></li>
+</ul>
+</section>
+<section id="background" class="level2">
+<h2>Background</h2>
+<p>Gerard is an expert in software development practices and methodologies who is experienced in transforming companies to benefit from an Open Source support and service business model. He has developed and overseen projects and is considered by his peers as a real full-stack engineer. With a focus on delivering quality and secure solutions, he has been able to provide small to enterprise level customers solutions that met their needs.</p>
+<p>He is a multi-disciplinary with excellent technical skills in a wide-range of principles; from software delivery, Continuous Integration, Continuous Delivery, and Deployment, to testing and performance tuning. An active consultant for Linux and Open Source and as part of this, he gives talks on software development and Open Source. He has years of experience developing software for different form-factors, programming and scripting languages. Specialized in dealing with mixed environments; for the Web, mobile, desktop and servers.</p>
+</section>
+<section id="specialties" class="level2">
+<h2>Specialties</h2>
+<ul>
+<li>Web and service based application development</li>
+<li>Cloud Virtualization Technologies and Patterns</li>
+<li>(Agile) Project Management</li>
+<li>System administration (Linux/Un*x, Windows)</li>
+<li>Desktop/web development and cross platform GUI development</li>
+<li>Continuous integration and deployment management</li>
+<li>TCP/IP and network protocols</li>
+<li>Performance tuning and debugging</li>
+<li>F/OSS involvement</li>
+</ul>
+</section>
+<section id="experience" class="level2">
+<h2>Experience</h2>
+<ul>
+<li><dl>
+<dt>IT-related</dt>
+<dd>10+ years
+</dd>
+</dl></li>
+<li><dl>
+<dt>Management</dt>
+<dd>5+ years
+</dd>
+</dl></li>
+<li><dl>
+<dt>Remote working</dt>
+<dd>2+ years
+</dd>
+</dl></li>
+</ul>
+</section>
+</section>
+<section id="employment-history" class="level1">
+<h1>Employment History</h1>
+<section id="principal-software-engineer" class="level2">
+<h2>Principal Software Engineer</h2>
+<ul>
+<li><p><a href="http://www.redhat.com" title="Red Hat">Red Hat</a>, January 2017 - present</p>
+<p>Working on tools to improve the workflow for development with containers, OpenShift, and Kubernetes.</p></li>
+</ul>
+</section>
+<section id="technical-director" class="level2">
+<h2>Technical Director</h2>
+<ul>
+<li><p><a href="http://www.unitedstack.com" title="UnitedStack有云 OpenStack [cloud] services">UnitedStack</a> (Beijing), November 2015 - December 2016</p>
+<p>Gerard has been integral to UnitedStack's transformation to provide services, which have led to UnitedStack becoming a Gold Member supporting the OpenStack Foundation and recognized training partner. Gerard has been able to deliver solutions to the customer based on different use-cases, utilizing Infrastructure-as-a-Service and Platform-as-a-Service such as OpenStack-based and Kubernetes.</p>
+<p>By working closely with upstream projects, he has introduced improvements that have led to a better product deliverance and overall improved quality.</p></li>
+</ul>
+</section>
+<section id="lead-of-rd" class="level2">
+<h2>Lead of R&amp;D</h2>
+<ul>
+<li><p>InfThink (Beijing), September 2015 - December 2015</p>
+<p>Gerard delivered an Internet-of-Things platform using FirefoxOS (Android) and techniques used in Platform-as-a-Service. Using an intuitive real-time HTML5 web interface, the device can be configured and provisioned with additional functionality.</p></li>
+</ul>
+</section>
+<section id="senior-full-stack-engineer" class="level2">
+<h2>Senior Full-stack Engineer</h2>
+<ul>
+<li><p><a href="http://www.thoughtworks.com/" title="ThoughtWorks">ThoughtWorks</a> (Beijing), November 2013 - September 2015</p>
+<p>Gerard led the new development, by choosing the technology stack, planning work increments. Utilizing HTML5 technology, a fully dynamic frontend using JavaScript and microservices in different languages, his team created a project that is now in use by the client for managing the mobility needs. This application sees a usage of hundreds of clients and thousands of users. Gerard has contributed a Federated SSO (Single Sign On) solution, allowing users connecting using their work email and sharing files with Box.net. Because of his work, all applications passed internal and external security scans, such as SensePost.</p></li>
+</ul>
+<section id="assignments" class="level3">
+<h3>Assignments</h3>
+<ul>
+<li>International Assignment Services. A suite of applications that helps a user to provide necessary information to help with tax filings in different countries and territories for One of the Big Four.</li>
+</ul>
+</section>
+</section>
+<section id="acting-cto-technical-lead-startup" class="level2">
+<h2>Acting CTO, Technical Lead (Startup)</h2>
+<ul>
+<li><p><a href="http://www.feichanghaokan.com/" title="非常好看(feichanghaokan)">非常好看(FeichangHaokan)</a>, October 2011 – April 2013</p>
+<p>Gerard worked as the technical lead at a Joint-Venture between FCHK and Nomovok. He was responsible for the development of an online contest platform focusing on people and their passions and interests. The software design and infrastructure allowed him to deliver a scalable web platform which could handle thousands of concurrent requests.</p>
+<p>During that time the also represented <a href="http://www.nomovok.com/" title="Nomovok">Nomovok</a> in Asia and developed several successful demonstration applications using the SteelRat Linux platform for phone and desktop use.</p></li>
+</ul>
+</section>
+<section id="technical-support-lead-and-localization-tester-project-based" class="level2">
+<h2>Technical Support Lead and Localization Tester (Project-based)</h2>
+<ul>
+<li><p><a href="http://www.neusoft.com/" title="Neusoft">东软集团(Neusoft)</a> (Beijing), July 2010 – October 2011</p>
+<p>As the Technical Support Lead for the newly formed MeeGo team, Gerard assisted testers with automating test actions, retrieving tracing and debugging information. To streamline the work of engineers he co-developed a QA tool to track bugs created locally and externally. This tool consisted of a real-time component augmenting Bugzilla's interface with our needed QA components without alteration of the externally deployed Bugzilla codebase.</p>
+<p>Presented with an employee award for <em>outstanding performance</em>. Gerard has been integral in implementing Agile practices and dealing with intercultural issues.</p></li>
+</ul>
+</section>
+<section id="it-consultant-it-manager" class="level2">
+<h2>IT Consultant / IT Manager</h2>
+<ul>
+<li><p><a href="http://www.sogyo.nl/" title="SOGYO">Sogyo Information Engineering</a> (Netherlands), November 2005 – May 2010</p>
+<p>Gerard worked as an experienced all-round software engineer on several projects and provided training about development methodologies and project management.</p>
+<p>For the IT infrastructure, Gerard has implemented a fault tolerant setup All existing server have been migrated to a completely virtualized environment with redundant storage setup. This setup allowed Sogyo to utilize faster automated testing, a more flexible choice in technology and new ideas on software deliverance. This all led to an overall quality improvement.</p></li>
+</ul>
+<section id="assignments-1" class="level3">
+<h3>Assignments</h3>
+<ul>
+<li><p>Command &amp; Control Support Centre, <a href="http://defensie.nl/" title="Ministerie van Defensie">Ministerie van Defensie (RNLA)</a> (Ede) – <em>Network Centric Warfare</em>.<br />
+Gerard developed a fault tolerant and secure data distribution framework used by all applications to support armed forces during missions and operations. For the Cyrus project, he implemented an interactive geodesic visualization that aids the military in planning and staging of troops and equipment. For the Very Optimized Soldier System, he ported the codebase to run as an embedded version of Windows and Linux using Mono and SQLite. He assisted several teams in the migration of TFS to Git which has helped the team to deliver faster test deliverables and overall improved productivity.</p></li>
+<li><p>VACAM, <a href="http://www.voortman.net/" title="Voortman Automatisering">Voortman Automatisering</a> (Rijssen)<br />
+Gerard led the team of a new development stream which involved bridging .NET and SoftPLC technology. Using domain driven design and a forward-looking vision, the team is now able to deliver better products using a very maintainable code-base.</p></li>
+<li><p>Showroom Order Entry, <a href="http://g-star.com/" title="G-Star RAW">G-Star RAW</a> (Amsterdam)<br />
+Gerard delivered a fault-tolerant order entry system for use during sales sessions while coping with peak season. He introduced code testing and continuous integration which became the basis for all future development.</p></li>
+<li><p><em>Digitaal Werven</em> (de Bilt)<br />
+Gerard developed both front-end and back-end of an online recruiting assessment and report system which is used by various Dutch and international companies.</p></li>
+<li><p>UEFA Euro 2008, <a href="http://www.summit.nl/" title="Summit">Summit</a> (Utrecht)<br />
+Gerard developed the registration module and pluggable authentication code for the UEFA registration management system.</p></li>
+<li><p><em>Resilience</em> (de Bilt) Gerard developed interactive front-end code for a profile registration system.</p></li>
+<li><p>OIT Inbox, <a href="http://www.belastingdienst.nl" title="Belastingdienst">Belastingdienst</a> (Apeldoorn)<br />
+As a J2EE software engineer, Gerard led the re-engineering project of an application that controls the flow of information and acts as a portal for Tax for all companies in the Netherlands.</p></li>
+</ul>
+</section>
+</section>
+<section id="software-engineer" class="level2">
+<h2>Software Engineer</h2>
+<ul>
+<li><p><a href="http://www.tharsis.nl/" title="Tharsis Consultancy">Tharsis</a> (Netherlands), November 2004 – July 2005</p>
+<p>Gerard successfully developed a Business Process Management using Microsoft .NET and Microsoft Office technologies based on a prototype. It allowed consultants to visualize the project they worked on and see the immediate impact of changes. This visualization made providing feedback to the client easier and increased positive result.</p></li>
+</ul>
+</section>
+<section id="manager" class="level2">
+<h2>Manager</h2>
+<ul>
+<li><p>SpotlightMedia (Netherlands), August 2003 – June 2004</p>
+<p>Gerard co-founded and led the software development team at Spotlight Media. I designed and developed a content management system using Python which was used by all customers. This system made it possible for customers to alter their content without the involvement of a content editor or developer for publication on their website, and export for use as marketing material.</p></li>
+</ul>
+</section>
+<section id="web-developer" class="level2">
+<h2>Web Developer</h2>
+<ul>
+<li><p><a href="http://www.max.nl/" title="Max.nl Internet">Max.NL Internet Publishing</a> (Netherlands), January 2001 – July 2003</p>
+<p>Gerard developed an online tax reporting system for several municipalities of the Netherlands; Apeldoorn, Lelystad, Zoetermeer and others. His contributions made it possible to re-use different data formats and database implementations as the StufTax data source for the reporting. For SILK he created a successful web front-end integration with a desktop environment to risk assessment.</p></li>
+</ul>
+</section>
+<section id="field-engineer-internship" class="level2">
+<h2>Field Engineer (internship)</h2>
+<ul>
+<li><p>Getronics NV, Networking and Services (Netherlands), August 1999 – January 2000</p>
+<p>Because Gerard was able to provide a very broad scope of knowledge, from Windows NT, Novell Netware, to Unix and more, he often accompanied fields engineers on consultancy.</p></li>
+</ul>
+</section>
+<section id="selected-open-source-activities" class="level2">
+<h2>Selected Open Source activities</h2>
+<ul>
+<li>Jor1K, <a href="http://jor1k.com/" title="Jor1K">OpenRISC OR1K JavaScript emulator</a><br />
+Gerard performed a major rewrite on the codebase and optimized code for execution.</li>
+<li>Project Lead, <a href="https://fedoraproject.org/wiki/Architectures/MIPS" title="Fedora MIPS">Fedora Project - MIPS</a><br />
+Gerard co-ordinated the MIPS port for proposal as a secondary architecture for the Fedora Linux distribution. Activities include the global planning, maintaining contact with communities of developers and users. This project had been handed over to CS2C and effort went into enabling other projects to port to the MIPS platform. Winner of the Godson Software Competition</li>
+<li>Fedora Ambassador Steering Committee Member APAC, <a href="http://fedoraproject.org/wiki/FAmSCo" title="Fedora FAmSCo">Fedora FAmSCo</a><br />
+Successfully co-ordinated and improved activities within the Fedora Community in Asia during his term. Gerard continues to be a mentor for the APAC region and the Chinese Fedora Community (Fedora 中文用户组).<br />
+</li>
+<li>Also see <a href="http://github.com/gbraad/" title="GitHub">GitHub</a> and <a href="http://gitlab.com/gbraad/" title="GitLab">GitLab</a> for project contribution information</li>
+</ul>
+</section>
+</section>
+<section id="education" class="level1">
+<h1>Education</h1>
+<section id="university-of-applied-sciences---bachelor-of-ict-in-software-engineering" class="level2">
+<h2>University of applied sciences - Bachelor of ICT in Software Engineering</h2>
+<ul>
+<li><p><a href="http://hu.nl/" title="Hogeschool Utrecht">Hogeschool van Utrecht</a> (Netherlands), September 2001 – 31 August 2005</p>
+<dl>
+<dt>Subjects included</dt>
+<dd>application development in Java, principle of computer systems and telematics, mathematical analysis, statistics, computer systems, principles of finance, principles of management, Methods and technique for system design, C programming, databases, data structures, server side programming, system- and network management, discrete mathematics, software quality, software architecture, computer graphics, numerical algorithm and performance, distributed systems, real-time embedded systems, human-computer interfaces, philosophy, informatics law, CCNA, MCSE
+</dd>
+</dl>
+<ul>
+<li><a href="http://sourceforge.net/projects/blokken/" title="Project Blokken">Project Blokken</a> – Created an Open Source educational application based using C++ and Qt, and led the Java rewrite.</li>
+<li>Computer graphics – created an interactive 3D environment using Python as embedded scripting language, which received a perfect mark.</li>
+<li>Real-time embedded systems – created an introductory teaching program for ARM assembly.</li>
+<li>Telematics – Created a transition roadmap and case study for IPv4 to IPv6 for the school's infrastructure.</li>
+</ul></li>
+</ul>
+</section>
+<section id="middle-level-applied-education---computer-interface-technology-mk-cit" class="level2">
+<h2>Middle-level applied education - Computer Interface Technology (MK-CIT)</h2>
+<ul>
+<li><p><a href="http://tce.nl/" title="Technisch College Ede">Technische College Ede</a> (Netherlands), September 1999 – 9 July 2001</p>
+<p>Education focussed on electronics and computer interfacing.</p>
+<dl>
+<dt>Subjects included</dt>
+<dd>assembly language, Turbo Pascal, interfacing using ISA, Serial and Parallel I/O, ...
+</dd>
+</dl></li>
+</ul>
+</section>
+<section id="middle-level-applied-education---electronicselectricity" class="level2">
+<h2>Middle-level applied education - Electronics/Electricity</h2>
+<ul>
+<li><p><a href="http://aventus.nl" title="Aventus (formerly Apeldoorns College)">Apeldoorns College</a> (Netherlands), September 1997 – July 1999</p>
+<dl>
+<dt>Subjects included</dt>
+<dd>high-voltage electricity, low-voltage electronics, PID controllers, PLC and SCADA, ...
+</dd>
+</dl></li>
+</ul>
+</section>
+</section>
+<section id="honors-and-recognition" class="level1">
+<h1>Honors and Recognition</h1>
+<ul>
+<li>Teaching English as a Foreign Language - TEFL China, September 2013</li>
+<li>MeeGo award for outstanding performance – Neusoft, 2011</li>
+<li>Winner of the Godson Software Competition, 2011</li>
+<li>DSDM Foundations – EXIN, 2006</li>
+<li>Microsoft Certified Professional – Developing &amp; Implementing Web Applications with MS Visual C#.NET &amp; MS Visual Studio.NET, 2006</li>
+<li>Object Oriented Programming Foundation (OOPF) – EXIN, 2005</li>
+<li>Sun Certified Programmer for the Java 2 Platform 1.4 (310-035), 2005</li>
+<li>Propedeuse certificate – Hogeschool van Utrecht, 2000</li>
+<li>Basic Typewriting – Associatie SMK, 1996</li>
+<li>Visual Merchandising – Ahold, 1997</li>
+</ul>
+</section>
+
+        </div>
+    </body>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-34531495-4', 'auto');
+        ga('send', 'pageview');
+    </script>
+</html>
